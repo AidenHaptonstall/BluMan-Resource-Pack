@@ -1,0 +1,20 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/book"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "minecraft:item/Spellbook_Fireball"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "minecraft:item/Potion_Book_Healing"
+        }
+    ]
+}
